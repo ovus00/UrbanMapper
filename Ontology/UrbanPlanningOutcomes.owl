@@ -1283,6 +1283,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#strong_local_ownership_of_developments_characterised_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#strong_local_ownership_of_developments_characterised_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#strong_local_ownership_of_developments"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#LocalOwnership"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#sustainable_equipment_characterised_by -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#sustainable_equipment_characterised_by">
@@ -4576,6 +4585,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#social_fabric_is_protected_from_disruption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#social_fabric_is_protected_from_disruption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#Others"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#social_inclusion_in_economic_opportunities -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#social_inclusion_in_economic_opportunities">
@@ -4636,6 +4653,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#strong_footfall">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#Traffic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#strong_local_ownership_of_developments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#strong_local_ownership_of_developments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/suvodeep/ontologies/2020/5/UrbanMapper#Social"/>
     </owl:Class>
     
 
